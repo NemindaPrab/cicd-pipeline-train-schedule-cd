@@ -71,7 +71,7 @@ pipeline {
                         publishers: [
                             sshPublisherDesc(
                                 
-                                configName: 'staging',
+                                configName: 'production',
                                 sshCredentials: [
                                     
                                     username: "$USERNAME",
